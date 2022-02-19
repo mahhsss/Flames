@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500&family=Reem+Kufi&display=swap');
+@import url('http://fonts.cdnfonts.com/css/ocr-a-extended');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Reenie+Beanie&display=swap');
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1: 'OCR A Extended', sans-serif;
+    --font2:'Kaushan Script', cursive;
+    --font3:'Reem Kufi', sans-serif;
+    --font4:'Reenie Beanie', cursive;
+    --sandal:#E4C2A0;
+}
+body{
+    background-color: #000;
+}
+
+html{
+    color: #fff;
+}
+
+nav{
+  font-family:var(--font2);
+  color: #fff;
+  font-size: 1.75rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+span{
+    font-family: var(--font2);
+    color: #E4C2A0;
+}
+
+#main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+p{
+    font-family: var(--font4);
+    border: 2px solid #fff;
+    font-size: 2.5rem;
+    margin: 5rem;
+    padding: 3rem;
+
+}
+
+form{
+    font-family: var(--font3);
+}
+input[type="text"]{
+    font-family: var(--font3);
+    background-color: transparent;
+    border: 2px solid var(--sandal);
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 1rem 10rem 1rem 2rem;
+}
+input:focus{
+  outline: none; 
+  
+}
+
+
+img{
+    float: right;
+    position: relative;
+    right: 2.8rem;
+}
+
+
+input[type="submit"]{
+    font-family: var(--font3);
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #111;
+    outline: none;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+::placeholder{
+   font-family: var(--font3);
+   font-size: 1.2rem;
+   color: #ccc;
+}
+
+.male{
+    position: relative;
+    right:4rem;
+    top: .75rem;
+}
+.female{
+    position: relative;
+    right:4rem;
+    top: .75rem;
+}
+
+
+
